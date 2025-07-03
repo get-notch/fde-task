@@ -1,6 +1,34 @@
 # fde-task
 Forward Deployed Engineer Home Assignment
 
+## 🧪 Testing Commands
+
+### Production Environment Base URL
+```
+https://fde-task.onrender.com
+```
+
+### Task 1: Order Summary Context Generator
+```bash
+# Get order details for order ID B931E0C3
+curl -X GET "https://fde-task.onrender.com/order/B931E0C3" \
+  -H "Accept: application/json" \
+  -H "Content-Type: application/json"
+```
+
+### Task 2: Return Label Creation
+```bash
+# Step 1: Initiate return label creation
+curl -X POST "https://fde-task.onrender.com/api/v1/notch/orders/B931E0C3/return-label" \
+  -H "Accept: application/json" \
+  -H "Content-Type: application/json"
+
+# Step 2: Check return label status
+curl -X GET "https://fde-task.onrender.com/api/v1/notch/orders/return-label?id={return_label_id}" \
+  -H "Accept: application/json" \
+  -H "Content-Type: application/json"
+```
+
 ### 🧠 Task: Order Summary Context Generator
 
 **Background:**
