@@ -5,7 +5,7 @@ Forward Deployed Engineer Home Assignment
 
 **Background:**
 
-You're building an AI agent to replace a customer support representative at **Mixtiles**, an e-commerce company that transforms personal photos into lightweight, stickable wall art. Customers upload their photos, select frame styles and sizes, and Mixtiles prints and ships the tiles directly to them. The tiles can be easily applied, removed, and repositioned without damaging walls .
+You're building an AI agent to replace a customer support representative at **TilePic**, an e-commerce company that transforms personal photos into lightweight, stickable wall art. Customers upload their photos, select frame styles and sizes, and TilePic prints and ships the tiles directly to them. The tiles can be easily applied, removed, and repositioned without damaging walls .
 
 **Your task:**
 
