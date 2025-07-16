@@ -85,7 +85,7 @@ Implement the logic for handling return label creation using the following API e
 
 - The label may take time to be ready.
 - Think about how you'd handle waiting, retries, failures, and timeouts.
-- You don't need to execute real requests — focus on structure and decision-making.
+- You are expected to ask questions that will make this feature production ready. Don't hestitate to reach out.
 
 **Deliverable:**
 
@@ -96,5 +96,4 @@ Write a function (or small module) that handles this flow end-to-end and returns
 - You can use **TypeScript** to write your functions.
 - You're free to use any external libraries you find helpful.
 - Feel free to ask any questions throughout the assignment — we're happy to clarify anything that's unclear. You can reach Tomer at +972526140560 on whatsapp.
-- You have **2 hours** to complete the assignment.
 - Aim for clean, readable code and thoughtful handling of edge cases.
