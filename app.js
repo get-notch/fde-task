@@ -1,5 +1,5 @@
 const express = require('express');
-const { mixtilesData } = require('./mixtilesData');
+const { tilePicData } = require('./tilePicData');
 const app = express();
 const port = 3000;
 
@@ -12,14 +12,14 @@ const returnLabelsMap = new Map();
 app.get('/order/:id', (req, res) => {
   const orderId = req.params.id;
   
-  // Check if the requested ID matches the ID in the mixtiles data
-  if (orderId !== mixtilesData.id) {
+  // Check if the requested ID matches the ID in the tilePic data
+  if (orderId !== tilePicData.id) {
     return res.status(404).json({ 
       error: 'Order not found' 
     });
   }
   
-  res.json(mixtilesData);
+  res.json(tilePicData);
 });
 
 

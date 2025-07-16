@@ -1,7 +1,7 @@
-const mixtilesData = {
+const tilePicData = {
     "id": "B931E0C3",
     "uid": "44BC7C5A-0941-7E38-C41D-BDC3B931E0C3",
-    "type": "Mixtiles 2.0 Order",
+    "type": "TilePic 2.0 Order",
     "state": "complete",
     "locale": "IE",
     "tracker": {
@@ -149,7 +149,7 @@ const mixtilesData = {
     "paymentMethod": "payPal",
     "refresherKits": [],
     "duplicatedOrder": false,
-    "orderSummaryUrl": "https://mixtiles.s3.amazonaws.com/order-summaries/44BC7C5A-0941-7E38-C41D-BDC3B931E0C3/your-order.pdf",
+    "orderSummaryUrl": "https://tilepic.s3.amazonaws.com/order-summaries/44BC7C5A-0941-7E38-C41D-BDC3B931E0C3/your-order.pdf",
     "orderStateHistory": {
       "all": [
         { "newState": "created", "updatedAt": "2023-09-25T20:55:32.955Z" },
@@ -212,5 +212,5 @@ const mixtilesData = {
     }
   }
 
-module.exports = { mixtilesData };
+module.exports = { tilePicData: tilePicData };
   
