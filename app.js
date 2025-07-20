@@ -60,7 +60,8 @@ app.post('/api/v1/notch/orders/:id/return-label', (req, res) => {
     const finalReturnLabel = {
       ...enrichedReturnLabel,
       status: finalStatus,
-      completedAt: new Date().toISOString()
+      completedAt: new Date().toISOString(),
+      returnLabelUrl: `https://example.com/return-labels/${enrichedReturnLabel.id}`,
     };
     
     // Save the final return label to the map

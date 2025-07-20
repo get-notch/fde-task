@@ -89,11 +89,11 @@ Implement the logic for handling return label creation using the following API e
 
 **Deliverable:**
 
-Write a function (or small module) that handles this flow end-to-end and returns either the return label URL or a failure indication.
+Write a function (or small module) that handles this flow end-to-end and returns both the string for the order summary and also either the return label URL or a failure indication.
 
 ### 📝 General Notes
 
-- You can use **TypeScript** to write your functions.
+- Use **TypeScript** to write your functions.
 - You're free to use any external libraries you find helpful.
 - Feel free to ask any questions throughout the assignment — we're happy to clarify anything that's unclear. You can reach Tomer at +972526140560 on whatsapp.
 - Aim for clean, readable code and thoughtful handling of edge cases.
